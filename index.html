@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> SMART RT 07 </title>
+
+  <!-- Favicon harus direct link ke file gambar -->
+  <link rel="icon" href="https://drive.google.com/thumbnail?id=1jGoCivsqGCY0YqK4TrDzP33byfH5wYIt&sz=w100" type="image/x-icon">
+
+  <style>
+    body { margin: 0; background: #f7f7f7; }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+
+  <!-- Script untuk marquee title -->
+  <script>
+    let titleText = " SMART RT 07 ";
+    let position = 0;
+
+    function scrollTitle() {
+      document.title = titleText.substring(position) + titleText.substring(0, position);
+      position = (position + 1) % titleText.length;
+      setTimeout(scrollTitle, 250); // kecepatan scroll
+    }
+
+    window.onload = scrollTitle;
+  </script>
+</head>
+<body>
+  <iframe src="https://script.google.com/macros/s/AKfycbykQ56vwHFPZZc4cXVC084BA94wvXY40nZphyMB4xcLtyAZs1Z2n6HW9btNPruEGajbnQ/exec" allowfullscreen></iframe>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
